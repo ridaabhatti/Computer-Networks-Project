@@ -124,10 +124,6 @@ public class Calculator {
             pos++;
             return inside;
         }
-        if (c == '-') {
-            pos++;
-            return -parsePrimary();
-        }
         return readNumber();
     }
 

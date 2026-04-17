@@ -1,0 +1,12 @@
+[2026-04-16 20:50:47] Server starting on port 6789
+[2026-04-16 20:50:48] REGISTER name=Alice connectTime=2026-04-16 20:50:48 address=/127.0.0.1
+[2026-04-16 20:50:48] [Alice] joined from /127.0.0.1 at 2026-04-16 20:50:48
+[2026-04-16 20:50:59] [Alice] sent: REQUEST|1+2
+[2026-04-16 20:50:59] [Alice] requested: 1+2
+[2026-04-16 20:50:59] [Alice] result sent: 1+2 = 3.0
+[2026-04-16 20:51:05] [Alice] sent: REQUEST|6^7 + 36
+[2026-04-16 20:51:05] [Alice] requested: 6^7 + 36
+[2026-04-16 20:51:05] [Alice] result sent: 6^7 + 36 = 279972.0
+[2026-04-16 20:51:16] [Alice] sent: QUIT|Alice
+[2026-04-16 20:51:16] [Alice] disconnected at 2026-04-16 20:51:16 | Session duration: 28s
+[2026-04-16 20:51:16] DEREGISTER name=Alice disconnectTime=2026-04-16 20:51:16 sessionSeconds=28
